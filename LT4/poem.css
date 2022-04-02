@@ -69,19 +69,19 @@ header {
     text-align: center;
     position: relative;
     padding: 0;
-}
-#title2 img{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    background-image: url(rectangle-ripped-9db569784941143327762f212b89bdfe.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 #center {
     position: absolute;
-    top: 28%;
-    left: 23%;
-    
+    text-align: center;
+   
     
 }
 #center h1{
@@ -92,20 +92,19 @@ header {
 #poem {
     margin: auto;
     width: 50%;
+    height: 1200px;
     text-align: center;
-    
-    
+    background-image: url(old-paper-transparent-background-12.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-#poem img {
-    width: 100%;
-    
-}
-#center2{
-    position: absolute;
-    top: 75%;
-    left: 32%;
-}
-#center2 p{
+
+#poem p{
     font-size: 35px;
     font-family: 'Special Elite', cursive;
     
