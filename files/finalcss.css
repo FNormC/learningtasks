@@ -1,0 +1,554 @@
+body{
+    margin:0;
+    padding: 0;
+    height: auto;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    overflow: hidden;  
+    display: flex;
+}
+#logo{
+    margin-left: 700px;
+    margin-top: 20px;
+}
+#logo img{
+    width: 200px;
+    margin-bottom: 0;
+}
+#nav{
+    float: left;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 0;
+    
+}
+#menu li{
+    float: left;
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+    list-style: none;
+    
+    
+}
+#menu li a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 12px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+#menu li a:hover{
+    color: rgb(215,43,12);
+    border: 4px solid rgb(215,43,12);
+}
+#wallpaper{
+    background-image: url(img/backg.jpg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+#welcome{
+    text-align: center;
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    
+}
+#welcome h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom:auto;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-decoration-color:rgb(215,43,12);
+}
+#content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(255, 251, 243, 0.1);/*rgb(215,43,12,0.2);*/
+    
+}
+#content h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 30px;
+    
+}
+/* CONTAINER AND BOX OF WEBSITES */
+#container{
+    width: 95%;
+    height: 550px;;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    
+    
+}
+#box1{
+    background-image: url(img/LT1prev.png);
+    background-size: contain;
+    border: 5px solid black;
+    width: 390px;
+    height: 210px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-right: 150px;
+    border-radius: 20px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+#box1:hover{ 
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px;   
+}
+
+#box2{
+    background-image: url(img/LT3.png);
+    background-size: contain;
+    border: 5px solid black;
+    width: 390px;
+    height: 210px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-right: 150px;
+    border-radius: 20px;
+    transition: 1s;
+}
+#box2:hover{ 
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px;   
+}
+#box3{
+    background-image: url(img/LE4.PNG);
+    background-size: contain;
+    border: 5px solid black;
+    width: 390px;
+    height: 210px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-right: 0px;
+    border-radius: 20px;
+    transition: 1s;
+}
+#box3:hover{ 
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px;   
+}
+#box4{
+    background-image: url(img/CLE1MT.PNG);
+    background-size: contain;
+    border: 5px solid black;
+    width: 390px;
+    height: 210px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+#box4:hover{ 
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px;   
+}
+#box5{
+    background-image: url(img/LT5.PNG);
+    background-size: contain;
+    border: 5px solid black;
+    width: 390px;
+    height: 210px;;
+    box-shadow: 5px 5px 5px 5px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+#box5:hover{ 
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px;   
+}
+#box6{
+    background-image: url(img/LE6home.PNG);
+    background-size: contain;
+    border: 5px solid black;
+    width: 390px;
+    height: 210px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+#box6:hover{ 
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px;   
+}
+#sitename{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    height: 60px;
+    display: flex;
+    margin-top: 150px;
+    font-weight: 100;
+}
+#sitename h1{
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25px;
+    margin-right: 20px;
+    float: left;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+}
+#buttons{
+    width: 200px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    float: right;
+}
+
+#buttons .prev a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: rgb(215,43,12);
+    color: white;   
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+#buttons #visit a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color:  rgb(215,43,12);
+    letter-spacing: 2px;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    float: left;
+}
+#buttons #visit a:hover{
+    background-color: rgb(171,29,31);
+    
+}
+#buttons .prev a:hover{
+    background-color: rgb(171,29,31);
+}
+#overlay1{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#overlay2{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#overlay3{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#overlay4{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#overlay5{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#overlay6{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#modal{
+    width: 900px;
+    height: 484px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 5px solid rgb(215,43,12);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#modal img{
+    z-index: -1;
+}
+#modaltext{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#modal a{
+    background-color: rgb(215,43,12);
+    padding: 5px 15px;
+    font-size: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#modal a:hover{
+    background-color: rgb(171,29,31);
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color:  black;
+    display: flex;
+    align-content: center;
+}
+#footerbox{
+    width: 30%;
+    height: 120;
+    margin-right: auto;
+    margin-left: auto;
+}
+ #footerhead{
+    width: 100%;
+    height: 50px;
+
+}
+#footerhead h1{
+    color:  rgb(215,43,12);
+     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+#footerbox h2{
+     color: white;
+     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+/* PROFILE PHP */
+#introbox{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height:700px;
+    padding-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: 
+}
+#pfp{
+    margin-left: 50px;
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    background-image: url(img/pfp2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 90px;
+    border: 10px solid rgb(215,43,12);
+    
+    
+}
+#about{
+    width: 800px;
+    height: 600px;
+    margin-left: 100px;
+    background-color: black;/*rgb(215,43,12);*/
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 50px;
+    white-space: nowrap;
+
+}
+#about h1{
+    margin-right: 290px;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#about #info{
+    width: 99%;
+    height: 490px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    border: 4px solid rgb(215,43,12);
+    margin-top: 20px;
+}
+#about #info #infotext{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 35px;
+}
+span{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color:rgb(215,43,12);
+}
+
+#more{
+    width: 70%;
+    height: 200px;
+    overflow: inherit;
+    padding: 0;
+}
+#more #follow{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    float: left;
+    margin-left: 50px;
+    font-size: 40px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-color: rgb(215,43,12);
+}
+#more #imgbox{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#more #imgbox img{
+    float: left;
+    width: 80px;
+    margin-left: 20px;
+}
+/* home.php */
+#homecontent{
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+}
+
+#hometext{
+    margin-top: 30px;
+    width: 800px;
+    height: 100px;
+   
+    overflow:inherit;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#hometext h2{
+     font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    padding: 0 0;
+    float: left;  
+    color: white;
+}
+#hometext2{
+    width: 900px;
+    height: 80px;
+    overflow:hidden;
+    padding: 0;
+    margin-top: 0;
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#hometext2 h3{
+     font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    padding: 0;
+    font-size: 30px;
+    float: left;
+    color: white;
+}
+#homemenu{
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+#homemenu li{
+    list-style: none;
+    float: left; 
+    text-decoration: none;
+}
+#homemenu a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 10px 25px;
+    background-color: rgb(215,43,12);
+    margin-left: 50px;
+    margin-right: 20px;
+    border: 4px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#homemenu a:hover{
+    background-color: rgb(171,29,31);
+}
