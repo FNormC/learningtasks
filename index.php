@@ -58,7 +58,7 @@ $loadpage =(isset($_GET['load']) && $_GET['load'] !='') ? $_GET['load'] :'';
                                 include_once 'files/profile.php';
                                 break;
                             default:
-                                include_once 'files/home.php';
+                                include 'files/home.php';
                         }
         ?>
     </div>
